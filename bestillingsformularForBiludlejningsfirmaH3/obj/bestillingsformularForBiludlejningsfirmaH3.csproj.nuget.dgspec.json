@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\will1331.ITSKP-ODENSE\\source\\repos\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj": {}
+    "C:\\Users\\Noah Kühne\\Source\\Repos\\bestillingsformular-for-biludlejningsfirma\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\will1331.ITSKP-ODENSE\\source\\repos\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj": {
+    "C:\\Users\\Noah Kühne\\Source\\Repos\\bestillingsformular-for-biludlejningsfirma\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\will1331.ITSKP-ODENSE\\source\\repos\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj",
+        "projectUniqueName": "C:\\Users\\Noah Kühne\\Source\\Repos\\bestillingsformular-for-biludlejningsfirma\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj",
         "projectName": "bestillingsformularForBiludlejningsfirmaH3",
-        "projectPath": "C:\\Users\\will1331.ITSKP-ODENSE\\source\\repos\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj",
-        "packagesPath": "C:\\Users\\will1331.ITSKP-ODENSE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\will1331.ITSKP-ODENSE\\source\\repos\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3\\obj\\",
+        "projectPath": "C:\\Users\\Noah Kühne\\Source\\Repos\\bestillingsformular-for-biludlejningsfirma\\bestillingsformularForBiludlejningsfirmaH3\\bestillingsformularForBiludlejningsfirmaH3.csproj",
+        "packagesPath": "C:\\Users\\Noah Kühne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Noah Kühne\\Source\\Repos\\bestillingsformular-for-biludlejningsfirma\\bestillingsformularForBiludlejningsfirmaH3\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\will1331.ITSKP-ODENSE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Noah Kühne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +40,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -67,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }
