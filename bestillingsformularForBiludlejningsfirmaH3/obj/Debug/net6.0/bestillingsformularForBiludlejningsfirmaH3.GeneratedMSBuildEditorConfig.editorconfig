@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\will1331.ITSKP-ODENSE\source\repos\bestillingsformularForBiludlejningsfirmaH3\bestillingsformularForBiludlejningsfirmaH3
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Admin/AllBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsQm9va2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Admin/EditBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Booking/BookingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29raW5nRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/will1331.ITSKP-ODENSE/source/repos/bestillingsformularForBiludlejningsfirmaH3/bestillingsformularForBiludlejningsfirmaH3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
