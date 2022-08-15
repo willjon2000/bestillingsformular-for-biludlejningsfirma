@@ -1,0 +1,43 @@
+﻿@model bestillingsformularForBiludlejningsfirmaH3.Entities.BookingsVehicle
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>BookingsVehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BookingVehicleId" class="control-label"></label>
+                <input asp-for="BookingVehicleId" class="form-control" />
+                <span asp-validation-for="BookingVehicleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingVehicle" class="control-label"></label>
+                <input asp-for="BookingVehicle" class="form-control" />
+                <span asp-validation-for="BookingVehicle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingVehiclePrice" class="control-label"></label>
+                <input asp-for="BookingVehiclePrice" class="form-control" />
+                <span asp-validation-for="BookingVehiclePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<bestillingsformularForBiludlejningsfirmaH3.Entities.BookingsAddon>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingAddon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingAddonPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingAddon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingAddonPrice)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BookingAddonId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BookingAddonId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BookingAddonId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
