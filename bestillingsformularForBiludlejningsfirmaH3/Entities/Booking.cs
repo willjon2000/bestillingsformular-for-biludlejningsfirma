@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace bestillingsformularForBiludlejningsfirmaH3.Entities
 {
@@ -13,7 +14,13 @@ namespace bestillingsformularForBiludlejningsfirmaH3.Entities
         public int BookingId { get; set; }
         public int BookingVehicleId { get; set; }
         public int BookingContactId { get; set; }
+
+        [Required]
+        [DataType(DataType.DateTime)]
         public DateTime BookingTimestampEnd { get; set; }
+
+        [Required]
+        [DataType(DataType.DateTime)]
         public DateTime BookingTimestampStart { get; set; }
 
         public virtual BookingsContact BookingContact { get; set; } = null!;
