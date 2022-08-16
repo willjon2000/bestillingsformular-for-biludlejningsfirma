@@ -17,6 +17,14 @@
                 <select asp-for="BookingVehicleId" class ="form-control" asp-items="ViewBag.BookingVehicleId"></select>
             </div>
             <div class="form-group">
+                <label asp-for="BookingTimestampStart" class="control-label"></label>
+                <input asp-for="BookingTimestampStart" type="date" class ="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingTimestampEnd" class="control-label"></label>
+                <input asp-for="BookingTimestampEnd" type="date" class ="form-control"></input>
+            </div>
+            <div class="form-group">
                 <label asp-for="BookingContact.BookingContactFullname" class="control-label"></label>
                 <input asp-for="BookingContact.BookingContactFullname" class="form-control" />
                 <span asp-validation-for="BookingContact.BookingContactFullname" class="text-danger"></span>
