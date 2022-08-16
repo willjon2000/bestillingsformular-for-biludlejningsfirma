@@ -13,17 +13,23 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="BookingId" class="control-label"></label>
-                <input asp-for="BookingId" class="form-control" />
-                <span asp-validation-for="BookingId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="BookingVehicleId" class="control-label"></label>
                 <select asp-for="BookingVehicleId" class ="form-control" asp-items="ViewBag.BookingVehicleId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="BookingContactId" class="control-label"></label>
-                <select asp-for="BookingContactId" class ="form-control" asp-items="ViewBag.BookingContactId"></select>
+                <label asp-for="BookingContact.BookingContactFullname" class="control-label"></label>
+                <input asp-for="BookingContact.BookingContactFullname" class="form-control" />
+                <span asp-validation-for="BookingContact.BookingContactFullname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingContact.BookingContactEmail" class="control-label"></label>
+                <input asp-for="BookingContact.BookingContactEmail" class="form-control" />
+                <span asp-validation-for="BookingContact.BookingContactEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BookingContact.BookingContactPhone" class="control-label"></label>
+                <input asp-for="BookingContact.BookingContactPhone" class="form-control" />
+                <span asp-validation-for="BookingContact.BookingContactPhone" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

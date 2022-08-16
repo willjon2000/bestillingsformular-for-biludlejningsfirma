@@ -15,11 +15,9 @@ namespace bestillingsformularForBiludlejningsfirmaH3.Entities
         public int BookingVehicleId { get; set; }
         public int BookingContactId { get; set; }
 
-        [Required]
         [DataType(DataType.DateTime)]
         public DateTime BookingTimestampEnd { get; set; }
 
-        [Required]
         [DataType(DataType.DateTime)]
         public DateTime BookingTimestampStart { get; set; }
 
